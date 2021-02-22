@@ -33,7 +33,7 @@ Istio generates the following types of telemetry in order to provide overall ser
 
 Metrics provide a way of monitoring and understanding behavior in aggregate.
 
-To monitor service behavior, Istio generates metrics for all service traffic in, out, and within an Istio service mesh. These metrics provide information on
+To monitor service behavior, Istio generates metrics for all service traffic in to, out from, and within an Istio service mesh. These metrics provide information on
 behaviors such as the overall volume of traffic, the error rates within the traffic, and the response times for requests.
 
 In addition to monitoring the behavior of services within a mesh, it is also important to monitor the behavior of the mesh itself. Istio components export
